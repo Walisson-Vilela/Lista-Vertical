@@ -1,0 +1,29 @@
+body {
+    background: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    text-indent: 20px;
+    line-height: 40px;
+    color: orange;
+    background: white;
+    
+}
+
+li a:hover, .selecionado a{
+    color: white;
+    background: orangered;
+}
+
+
